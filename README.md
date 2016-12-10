@@ -1,10 +1,13 @@
-# eyes
+# eyes-core
 Out of the box web app/docker security scan tool.
 
-![](art/rabbot-eye-of-ra.png)
+![](https://raw.githubusercontent.com/rabbots/eyes-art/master/icons/eyes-256x256.png)
 
 ## Inspire
-- [ ] https://github.com/zeit/now-app
+- CLI : https://github.com/zeit/now-cli
+- Core : https://github.com/bearded-web/images
+
+- - -
 
 ## Security Tools
 ### Web
@@ -21,61 +24,11 @@ Out of the box web app/docker security scan tool.
 
 ### Existing
 - https://www.owasp.org/index.php/Category:Vulnerability_Scanning_Tools
+- https://github.com/infoslack/awesome-web-hacking#docker-images-for-penetration-testing
 
-### No Resale
+### No Resale (Can't use)
 - https://nodesecurity.io/
-
-- - -
-
-## Expected
-### alpha
-- [ ] [UI] User can drag and drop link to app icon.
-- [ ] [Core] App can recognize dropped item type as `web` or `Docker` file.
-- [ ] [Core] Dropped URL get scan with selected `web` related tools (from 2).
-- [ ] [Core] Dropped `Docker` file get scan with selected `Docker` related tools (from 2).
-- [ ] [Core] App can save JSON,HTML results to disk.
-
-### beta
-- [ ] [UI] User can see progress at icon in task bar.
-- [ ] [UI] User get notify as popup with scan results as HTML.
-- [ ] [UI] User can choose to `save`, `close` poppup.
-- [ ] [Core] App can `save` HTML results to disk or `close` poppup.
-- [ ] [Menu] `Quit` : User can quit app gracefully.
-- [ ] [Menu] `Pause` : User can pause scan progress.
-- [ ] [Menu] `Cancel` : User can cancel scan progress.
-- [ ] [Menu] `About` : User can see app name and version.
-- [ ] [Menu] `Tools` : User can toggle 2 tools.
-
-### rc1
-- [ ] [Core] Dropped URL get scan with ...(TBD)
-- [ ] [Core] Dropped `Docker` file get scan with ...(TBD)
-- [ ] [Core] App can scan concurrently.
-- [ ] [Core] User can see concurrently progress at icon in task bar.
-
-### rc2
-- [ ] [Backend] JSON,HTML results get upload to server : https://graph.cool/
-- [ ] [Backend] Admin can see results listed in dashboard : https://github.com/graphcool-examples/react-apollo-todo-example
-- [ ] [Backend] Admin can display each html result.
-
-### rc3
-- [ ] [Menu] User can subscribe with email per url.
-- [ ] [Backend] Subscribers colletions get upsert after user mutatate email and url.
-- [ ] [Backend] User can paid for more both email and url subscriptions. (paypal, omise)
-- [ ] [Backend] Admin can see subscriptions list : https://github.com/graphcool-examples/react-apollo-todo-example
-- [ ] [Backend] Admin can set cron job via : https://github.com/graphcool-examples/webtask-mailgun-email-example
-- [ ] [Backend] Emails colletions state get update as `will_send`.
-- [ ] [Backend] Subscribers recieve email from cron job.
-- [ ] [Backend] Emails colletions state get update as `sent`.
-- [ ] [UI] Subscribers can open email.
-- [ ] [Backend] Emails colletions state get update as `opened`.
-
-### rc4
-- [ ] [Menu] User can unsubscribe from each subscribed list.
-- [ ] [UX] User get warn dialog before unsubscribe.
-
-### v1
-- [ ] Free trial. ...(TBD)
-- [ ] Scan on server. ...(TBD)
+- https://github.com/wpscanteam/wpscan
 
 - - -
 
@@ -87,11 +40,6 @@ Out of the box web app/docker security scan tool.
 ## Usefuls
 - DOM hack tools : https://github.com/APIs-guru/graphql-apis
 - Web Performance Metrics : http://rigor.com/blog/2016/11/web-performance-metrics
-
-### v2
-- [ ] [Core] Dropped URL get scan with ...(TBD)
-- [ ] [Core] Dropped `Docker` file get scan with ...(TBD)
-- [ ] [Perf] ...(TBD)
 
 - - -
 
@@ -109,4 +57,3 @@ To make bundled application:
 ```bash
 $ npm run pack
 ```
-
