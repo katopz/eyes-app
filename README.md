@@ -1,11 +1,12 @@
-# eyes-core
+# eyes-app
 Out of the box web app/docker security scan tool.
 
 ![](https://raw.githubusercontent.com/rabbots/eyes-art/master/icons/eyes-256x256.png)
 
 ## Inspire
 - CLI : https://github.com/zeit/now-cli
-- Core : https://github.com/bearded-web/images
+- Core (Docker) : https://github.com/bearded-web/images
+- Core (perl) : https://github.com/schubergphilis/Seccubus_v2/tree/master/scanners
 
 - - -
 
